@@ -4,7 +4,7 @@ import java.util.Map;
 public class CC1 {
 
     public static void main(String[] args) {
-        final String[] words = {"gato", "toga"};
+        final String[] words = {"luciernaga", "neuralgica"};
         System.out.println("El par de palabras es un anagrama: " + CC1.isAnagram(words[0], words[1]));
 
     }
