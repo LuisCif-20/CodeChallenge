@@ -9,6 +9,11 @@ public class CC1 {
 
     }
 
+    /*
+     * El algoritmo tiene complejidad O(n) ya que utiliza hashmap los cuales basan su busqueda en hash,
+     * al no haber bucles anidados evita complejidades de O(n2), lo cual convierte el algoritmo en un
+     * algoritmo lineal
+     */
     private static boolean isAnagram(String word1, String word2) {
         Map<Character, Integer> w1 = new HashMap<Character, Integer>();
         Map<Character, Integer> w2 = new HashMap<Character, Integer>();
