@@ -10,7 +10,7 @@ public class CC1 {
     }
 
     /*
-     * El algoritmo tiene complejidad O(n) ya que utiliza hashmap los cuales basan su busqueda en hash,
+     * El algoritmo tiene complejidad O(n) ya que utiliza hashmap los cuales basan su busqueda en hash (clave, valor),
      * al no haber bucles anidados evita complejidades de O(n2), lo cual convierte el algoritmo en un
      * algoritmo lineal
      */
